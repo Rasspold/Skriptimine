@@ -27,3 +27,15 @@ git remote add skriptimine https://github.com/Rasspold/skriptimine.git
 
 b) git remote kontroll
 git remote -v
+
+põhikasutamine:
+
+a) pane fail järgisele:
+git add failinimi
+
+b) lisa kirjelduse muudatuse kohta
+git commit -m "lühikirjelduse lasu"
+
+c) lisa kaugrepositooriumi
+git push '-ug skriptimine master
+
