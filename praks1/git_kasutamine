@@ -17,3 +17,13 @@ cd skriptimine
 d) tekita lokaalne respositoorium git süsteemi japks anud kasutas
 git init
 
+c) siseneme antud kasuta
+cd skriptimine
+
+temote seadistamine:
+
+a)tekita okaalen repositoorium git süsteemi jaoks antud kaustas 
+git remote add skriptimine https://github.com/Rasspold/skriptimine.git
+
+b) git remote kontroll
+git remote -v
