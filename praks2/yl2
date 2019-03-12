@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Yl2 tookasu taitmine
+echo "Rasmus Pold" # minu nimi
+echo "ISP 118" # oppegrupp
+echo "See aine on huvitav" # kuidas mulle see aine tundub
+echo "mulje on hea ja soovin seda oppid" # minu praegune mulje ja edasijoudmine jne
+#
+#skripti lopp
