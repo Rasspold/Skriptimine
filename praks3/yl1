@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+echo -n "Today is " # kirjutab
+echo `date +"%A, %B %d, %Y"` #naitab paeva
+echo -n "Time is " #kirjutab 
+echo `date +"%T"` #naitab aega
+echo " "
+echo -n "Calender of " #kirjutab 
+cal #naitab kalendirt
+
+
+
