@@ -1,0 +1,7 @@
+#!/bin/bash
+#Ask the user for their name
+echo "Mis on ees- ja perenimi?"
+read varname
+echo "Tere tulemas, $varname"
+#
+#
