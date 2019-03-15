@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+echo -n "skiriptimine at" 
+uptime | cut -f1 -d ","
+#
+#
