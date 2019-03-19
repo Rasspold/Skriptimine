@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+echo "Mis on kandiku pikkus ja laius centimeetrites?"
+read a b #laseb kasutajal sisse panna A ja  B
+pindala=`expr $a \* $b` #korutab A ja B ,et saada pindala
+echo $pindala #naitab kasutajale pindala
+echo "Kui suured on küpsised centimeetites?" 
+read c #laseb kasutajal sisse panna C
+pindala1=`expr $c \* 3 / 2` #jagab ja korutab et leida küpsise pindala
+echo $pindala1
+echo "mittu kihit tuleb tordile?"
+read d # kusib kasutajalt mittu kihit tulbe
+echo "mittu küpsist on karbis?"
+read e #kusiv kasutajalt mittu kupsist on karbis
+vastus=`expr $pindala / $pindala1 / $d` #jagab et leida mittu pakki kokku tuleb osta
+echo -n "Kokku tuleba vaja osta " #annab lopp vastuse
+echo -n $vastus #annab lopp vastuse
+echo " karpi küpsist" #annab lopp vastuse
+#
+#
