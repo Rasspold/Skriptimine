@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+echo "sisesta arv suvaline taisarv"
+read a
+jaak=$(( $a % 2 )) #arvutab jaaki 2ga jamaisle
+if [ $jaak -eq 0 ] #kui jaak on null
+then echo "$a on paaris"
+else echo "$a on paaritu"
+fi
+#
