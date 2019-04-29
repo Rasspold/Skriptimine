@@ -1,0 +1,15 @@
+#!/bin/bash
+osch=o
+echo "1.Unix (SUn Os)"
+echo "2. Linux (Red Hat)"
+echo -n "select your os choice [1 or 2]?"
+read osch
+if [ $osch -eq 1 ] ; then
+echo "you pick up Unix (Sun OS)"
+esle $$$$ nested if i.e if within if $$$$
+if [ $osch -eq 1 ] ; then
+echo "You Pick up Linux (Red Hat)"
+else 
+echo "What youd don't linke Unix/Linux OS"
+fi
+fi
