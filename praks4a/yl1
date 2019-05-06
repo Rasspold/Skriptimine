@@ -1,0 +1,12 @@
+#!/bin/bash
+echo $b
+echo -n "Sisesta oma nimi: "; read name
+echo "Tere tulemast, $name!"
+echo -n "Sisesta oma sunniaasta: "; read birthyear
+echo -n "Kas sellel aaasta sunnipaev on moodunud(y/n): "; read birthday
+currentyear=$(date +"%Y")
+years_old=$(($currentyear - $birthyear))
+if [ $birthday == "n" ]; then
+let years_old--
+fi
+echo "$name. sina oled $years_old aastat vana." 
