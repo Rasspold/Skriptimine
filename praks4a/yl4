@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -n "millist kausta soovite backupida: "
+read kaust
+echo -n "kuhu soovite teha backupi: "
+read backup
+tar -czf test.tar.gz $kaust
+mc test.tar.gz $backup
+echo "kataloogi $kaust backup-i nimi on %kaust.tar.gz ja asub $backup" 
