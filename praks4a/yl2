@@ -1,0 +1,5 @@
+#!/bin/bash
+echo -n "sisest ringi raadius(Cm)' "; read r
+umbermoot=$(echo "$r * 2 * 3.14" | bc)
+pindala=$(echo "$r ^ 2 * 3.14" | bc)
+echo "ringi pindala on $pindala ruutsentimeetri ja $umbermoot on $umbermoot sentimeetrit"
