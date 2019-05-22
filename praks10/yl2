@@ -1,0 +1,41 @@
+#!/bin/bash
+read  -p "Sisesta kuu number: " kuu
+if test $kuu == 1
+then
+echo "See on talv"
+elif test $kuu == 2
+then
+echo "See on talv"
+elif test $kuu == 3
+then
+echo "See on kevad"
+elif test $kuu == 4
+then 
+echo "See on kevad"
+elif test $kuu == 5 
+then 
+echo "see on kevad"
+elif test $kuu == 6
+then
+echo "see on suvi"
+elif test $kuu == 7
+then
+echo"see on suvi"
+elif test $kuu == 8
+then
+echo "see on suvi"
+elif test $kuu == 9
+then
+echo "see on sugis"
+elif test $kuu == 10
+then
+echo "see on sugis"
+elif test $kuu == 11
+then
+echo "see on sugis"
+elif test $kuu == 12
+then
+echo "see on talv"
+else
+echo "vigane sisend"
+fi
